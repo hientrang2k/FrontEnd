@@ -1,9 +1,17 @@
+// import './App.css'
+// import 'antd/dist/antd.min.css'
+import './index.css'
+// import 'swiper/css'
+// import 'swiper/css/navigation'
+// import 'swiper/css/thumbs'
+// import 'react-quill/dist/quill.snow.css'
+import Routers from './Routers'
+
 function App() {
   return (
-    <div className='text-center font-bold'>
-      <h1> Trang</h1>
-    </div>
+    <Routers />
   );
 }
 
 export default App;
+
