@@ -1,0 +1,13 @@
+{
+    "header":{
+        "special":"Specialist",
+        "doctorBySpecial":"Find a doctor by specialty",
+        "clinic": "Health facilities",
+        "chooseClinic":"Choose a hospital, clinic",
+        "doctor":"Doctor",
+        "chooseDoctor":"Choose doctor",
+        "combo":"Medical examination package",
+        "generalCheck":"General health check",
+        "support":"Support"
+    }
+}

@@ -1,5 +1,13 @@
 {
     "header":{
-        "special":"Chuyên khoa"
+        "special":"Chuyên khoa",
+        "doctorBySpecial":"Tìm bác sĩ theo chuyên khoa",
+        "clinic": "Cơ sở y tế",
+        "chooseClinic":"Chọn bệnh viện, phòng khám",
+        "doctor":"Bác sĩ",
+        "chooseDoctor":"Chọn bác sĩ",
+        "combo":"Gói khám",
+        "generalCheck":"Khám sức khỏe tổng quát",
+        "support":"Hỗ trợ"
     }
 }
