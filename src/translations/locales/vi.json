@@ -8,6 +8,27 @@
         "chooseDoctor":"Chọn bác sĩ",
         "combo":"Gói khám",
         "generalCheck":"Khám sức khỏe tổng quát",
-        "support":"Hỗ trợ"
+        "support":"Hỗ trợ",
+        "title1":"Nền tảng y tế",
+        "title2":"Chăm sóc sức khỏe toàn diện",
+        "search":"Tìm kiếm",
+        "listSelect":{
+            "item1":"Khám",
+            "sub-item1":"Chuyên khoa",
+            "item2":"Khám",
+            "sub-item2":"từ xa",
+            "item3":"Khám",
+            "sub-item3":"tổng quát",
+            "item4":"Xét nghiệm",
+            "sub-item4":"y học",
+            "item5":"Sức khỏe",
+            "sub-item5":"tinh thần",
+            "item6":"Khám",
+            "sub-item6":"nha khoa",
+            "item7":"Gói",
+            "sub-item7":"phẫu thuật",
+            "item8":"Sản phẩm",
+            "sub-item8":"Y tế"
+        }
     }
 }
