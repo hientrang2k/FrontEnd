@@ -7,7 +7,6 @@ import Profile from "../Profile";
 import SearchIcon from "@mui/icons-material/Search";
 import "../../HomePage/style.css";
 import ListSelectHeader from "../ListSelectHeader";
-import Slideshow from "../ListTopic";
 
 const Header = () => {
   return (
@@ -57,10 +56,10 @@ const Header = () => {
       </Box>
       <Box
         component="div"
-        className="flex items-center justify-center text-white text-[34px] uppercase mt-[120px] mb-[50px] flex-col"
+        className="flex items-center justify-center text-white text-[34px] uppercase mt-[120px] mb-[50px] flex-col "
       >
-        <div className="font-normal">{i18n.t("header.title1")}</div>
-        <div className="font-bold">{i18n.t("header.title2")}</div>
+        <div className="font-normal text-shadow">{i18n.t("header.title1")}</div>
+        <div className="font-bold text-shadow">{i18n.t("header.title2")}</div>
       </Box>
       <Paper
         component="form"
@@ -72,7 +71,7 @@ const Header = () => {
           borderRadius: "30px",
           margin: "auto",
           backgroundColor: "#4fbdc09c",
-          marginBottom: "250px",
+          marginBottom: "240px",
         }}
       >
         <IconButton type="button" sx={{ p: "10px" }} aria-label="search">

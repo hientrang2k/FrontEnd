@@ -14,3 +14,7 @@
 .bgr-gradient {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.01))
 }
+
+.text-shadow {
+    text-shadow: 1px 1px 1px #333;
+}
