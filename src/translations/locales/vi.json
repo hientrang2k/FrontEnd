@@ -32,5 +32,22 @@
             "item9":"Sức khỏe",
             "sub-item9":"Doanh nghiệp"
         }
+    },
+    "teleMedical":{
+        "listTitle": "Bác sĩ từ xa qua Video",
+        "viewMore":"Xem thêm"
+    },
+    "commonSpecial":{
+        "title":"Chuyên khoa phổ biến",
+        "viewMore":"Xem thêm"
+    },
+    "outstandingClinic":{
+        "title":"Phòng khám nổi bật",
+        "viewMore":"Xem thêm"
+    },
+    "outstandingDoctor":{
+        "title":"Bác sĩ nổi bật",
+        "viewMore":"Xem thêm"
     }
+
 }
