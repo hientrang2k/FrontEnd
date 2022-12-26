@@ -1,24 +1,24 @@
-import React from "react";
-import { Box, InputBase, IconButton, Paper } from "@mui/material";
-import i18n from "../../../../translations";
-import { Slide } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
-import image from "../../../../assets/img/bs-chung.jpg";
-import "./style.css";
+import React from 'react';
+import { Box, InputBase, IconButton, Paper } from '@mui/material';
+import i18n from '../../../../translations';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
+import image from '../../../../assets/img/bs-chung.jpg';
+import './style.css';
 
 const OutStandingDoctor = () => {
   return (
-    <Box component="div" className="flex justify-center py-[30px] bg-white">
-      <div className="max-w-[65%] flex flex-col">
-        <div className="flex justify-between my-[8px]">
-          <div className="font-medium text-[24px]">
-            {i18n.t("outstandingDoctor.title")}
+    <Box component='div' className='flex justify-center py-[30px] bg-white'>
+      <div className='max-w-[65%] flex flex-col'>
+        <div className='flex justify-between my-[8px]'>
+          <div className='font-medium text-[24px]'>
+            {i18n.t('outstandingDoctor.title')}
           </div>
-          <div className="px-[20px] py-[10px] bg-[#95edf15c] text-[#056c70] hover:bg-[#94dcdf] rounded-[8px] cursor-pointer">
-            {i18n.t("outstandingDoctor.viewMore")}
+          <div className='px-[20px] py-[10px] bg-[#95edf15c] text-[#056c70] hover:bg-[#94dcdf] rounded-[8px] cursor-pointer'>
+            {i18n.t('outstandingDoctor.viewMore')}
           </div>
         </div>
-        <div className="slide-container mt-[20px]">
+        <div className='slide-container mt-[20px] slide-dot'>
           <Slide
             slidesToScroll={1}
             slidesToShow={1}
@@ -41,69 +41,69 @@ const OutStandingDoctor = () => {
               },
             ]}
           >
-            <div className="p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[10px]">
-              <div className="w-[120px]">
-                <img className="rounded-[50%]" src={image} alt="" />
+            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+              <div className='w-[120px]'>
+                <img className='rounded-[50%]' src={image} alt='' />
               </div>
-              <div className="mt-[12px]  hover:text-[#15d1c8] text-center">
+              <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
               </div>
-              <div className="text-[14px] mb-[40px]">
+              <div className='text-[14px] mb-[40px]'>
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className="p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[10px]">
-              <div className="w-[120px]">
-                <img className="rounded-[50%]" src={image} alt="" />
+            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+              <div className='w-[120px]'>
+                <img className='rounded-[50%]' src={image} alt='' />
               </div>
-              <div className="mt-[12px]  hover:text-[#15d1c8] text-center">
+              <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
               </div>
-              <div className="text-[14px] mb-[40px]">
+              <div className='text-[14px] mb-[40px]'>
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className="p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[10px]">
-              <div className="w-[120px]">
-                <img className="rounded-[50%]" src={image} alt="" />
+            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+              <div className='w-[120px]'>
+                <img className='rounded-[50%]' src={image} alt='' />
               </div>
-              <div className="mt-[12px]  hover:text-[#15d1c8] text-center">
+              <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
               </div>
-              <div className="text-[14px] mb-[40px]">
+              <div className='text-[14px] mb-[40px]'>
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className="p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[10px]">
-              <div className="w-[120px]">
-                <img className="rounded-[50%]" src={image} alt="" />
+            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+              <div className='w-[120px]'>
+                <img className='rounded-[50%]' src={image} alt='' />
               </div>
-              <div className="mt-[12px]  hover:text-[#15d1c8] text-center">
+              <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
               </div>
-              <div className="text-[14px] mb-[40px]">
+              <div className='text-[14px] mb-[40px]'>
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className="p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[10px]">
-              <div className="w-[120px]">
-                <img className="rounded-[50%]" src={image} alt="" />
+            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+              <div className='w-[120px]'>
+                <img className='rounded-[50%]' src={image} alt='' />
               </div>
-              <div className="mt-[12px]  hover:text-[#15d1c8] text-center">
+              <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
               </div>
-              <div className="text-[14px] mb-[40px]">
+              <div className='text-[14px] mb-[40px]'>
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className="p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[10px]">
-              <div className="w-[120px]">
-                <img className="rounded-[50%]" src={image} alt="" />
+            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+              <div className='w-[120px]'>
+                <img className='rounded-[50%]' src={image} alt='' />
               </div>
-              <div className="mt-[12px]  hover:text-[#15d1c8] text-center">
+              <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
               </div>
-              <div className="text-[14px] mb-[40px]">
+              <div className='text-[14px] mb-[40px]'>
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
