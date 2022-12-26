@@ -7,6 +7,8 @@ import CommonSpecial from "../HomeComponent/CommonSpecial";
 import TeleMedicine from "../HomeComponent/TeleMedicine";
 import OutStandingClinic from "../HomeComponent/OutStandingClinic";
 import OutStandingDoctor from "../HomeComponent/OutStandingDoctor";
+import DownloadApp from "../HomeComponent/DownloadApp";
+import Footer from "../HomeComponent/Footer";
 
 const HomePage = () => {
   return (
@@ -19,6 +21,8 @@ const HomePage = () => {
       <CommonSpecial />
       <OutStandingClinic />
       <OutStandingDoctor />
+      <DownloadApp />
+      <Footer />
     </Box>
   );
 };

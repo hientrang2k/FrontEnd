@@ -48,6 +48,12 @@
     "outstandingDoctor":{
         "title":"Bác sĩ nổi bật",
         "viewMore":"Xem thêm"
+    },
+    "downloadApp":{
+        "title":"Tải ứng dụng TeleApoint",
+        "advance1":"Đặt khám nhanh hơn",
+        "advance2":"Nhận thông báo từ hệ thống",
+        "advance3":"Nhận hướng dẫn đi khám chi tiết"
     }
 
 }
