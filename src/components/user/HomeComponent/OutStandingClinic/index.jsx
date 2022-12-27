@@ -3,7 +3,7 @@ import { Box, InputBase, IconButton, Paper } from '@mui/material';
 import i18n from '../../../../translations';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import image from '../../../../assets/img/BV-viet-duc.jpg';
+import { bvVietDuc } from '../../../../assets/img';
 
 const OutStandingClinic = () => {
   return (
@@ -41,27 +41,27 @@ const OutStandingClinic = () => {
             ]}
           >
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={bvVietDuc} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={bvVietDuc} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={bvVietDuc} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={bvVietDuc} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={bvVietDuc} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={bvVietDuc} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
           </Slide>

@@ -3,7 +3,7 @@ import { Box, InputBase, IconButton, Paper } from '@mui/material';
 import i18n from '../../../../translations';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import image from '../../../../assets/img/tam-ly.jpg';
+import { tamLy } from '../../../../assets/img';
 
 const TeleMedicine = () => {
   return (
@@ -41,27 +41,27 @@ const TeleMedicine = () => {
             ]}
           >
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
             <div className='p-[20px] text-[14px]'>
-              <img className='rounded-[8px]' src={image} alt='' />
+              <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
           </Slide>

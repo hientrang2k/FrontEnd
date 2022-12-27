@@ -3,7 +3,7 @@ import { Box, InputBase, IconButton, Paper } from '@mui/material';
 import i18n from '../../../../translations';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import image from '../../../../assets/img/bs-chung.jpg';
+import { bsChung } from '../../../../assets/img';
 import './style.css';
 
 const OutStandingDoctor = () => {
@@ -43,7 +43,7 @@ const OutStandingDoctor = () => {
           >
             <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
-                <img className='rounded-[50%]' src={image} alt='' />
+                <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
               <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
@@ -54,7 +54,7 @@ const OutStandingDoctor = () => {
             </div>
             <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
-                <img className='rounded-[50%]' src={image} alt='' />
+                <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
               <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
@@ -65,7 +65,7 @@ const OutStandingDoctor = () => {
             </div>
             <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
-                <img className='rounded-[50%]' src={image} alt='' />
+                <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
               <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
@@ -76,7 +76,7 @@ const OutStandingDoctor = () => {
             </div>
             <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
-                <img className='rounded-[50%]' src={image} alt='' />
+                <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
               <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
@@ -87,7 +87,7 @@ const OutStandingDoctor = () => {
             </div>
             <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
-                <img className='rounded-[50%]' src={image} alt='' />
+                <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
               <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng
@@ -98,7 +98,7 @@ const OutStandingDoctor = () => {
             </div>
             <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
-                <img className='rounded-[50%]' src={image} alt='' />
+                <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
               <div className='mt-[12px]  hover:text-[#15d1c8] text-center'>
                 Phó GS, Tiến sĩ, Bác sĩ cao cấp Vũ Duy Hưng

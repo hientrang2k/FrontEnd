@@ -2,7 +2,7 @@ import { Box } from '@mui/system';
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import image from '../../../../assets/img/154000-1-vc-medlatec.png';
+import { medlatec } from '../../../../assets/img';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import './style.css';
 
@@ -33,7 +33,7 @@ const Slideshow = () => {
           ]}
         >
           <div className='p-[20px] text-[13px]'>
-            <img className='rounded-[15px]' src={image} alt='' />
+            <img className='rounded-[15px]' src={medlatec} alt='' />
             <div className='font-bold mt-[10px] mb-[12px]'>
               Xét nghiệm COVID
             </div>
@@ -47,7 +47,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className='p-[20px] text-[13px]'>
-            <img className='rounded-[15px]' src={image} alt='' />
+            <img className='rounded-[15px]' src={medlatec} alt='' />
             <div className='font-bold mt-[10px] mb-[12px]'>
               Xét nghiệm COVID
             </div>
@@ -61,7 +61,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className='p-[20px] text-[13px]'>
-            <img className='rounded-[15px]' src={image} alt='' />
+            <img className='rounded-[15px]' src={medlatec} alt='' />
             <div className='font-bold mt-[10px] mb-[12px]'>
               Xét nghiệm COVID
             </div>
@@ -75,7 +75,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className='p-[20px] text-[13px]'>
-            <img className='rounded-[15px]' src={image} alt='' />
+            <img className='rounded-[15px]' src={medlatec} alt='' />
             <div className='font-bold mt-[10px] mb-[12px]'>
               Xét nghiệm COVID
             </div>
@@ -89,7 +89,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className='p-[20px] text-[13px]'>
-            <img className='rounded-[15px]' src={image} alt='' />
+            <img className='rounded-[15px]' src={medlatec} alt='' />
             <div className='font-bold mt-[10px] mb-[12px]'>
               Xét nghiệm COVID
             </div>
@@ -103,7 +103,7 @@ const Slideshow = () => {
             </div>
           </div>
           <div className='p-[20px] text-[13px]'>
-            <img className='rounded-[15px]' src={image} alt='' />
+            <img className='rounded-[15px]' src={medlatec} alt='' />
             <div className='font-bold mt-[10px] mb-[12px]'>
               Xét nghiệm COVID
             </div>
