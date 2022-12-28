@@ -40,27 +40,27 @@ const TeleMedicine = () => {
               },
             ]}
           >
-            <div className='p-[20px] text-[14px]'>
+            <div className='p-[20px] text-[14px] cursor-pointer hover:text-[#15d1c8]'>
               <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
-            <div className='p-[20px] text-[14px]'>
+            <div className='p-[20px] text-[14px] cursor-pointer hover:text-[#15d1c8]'>
               <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
-            <div className='p-[20px] text-[14px]'>
+            <div className='p-[20px] text-[14px] cursor-pointer hover:text-[#15d1c8]'>
               <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
-            <div className='p-[20px] text-[14px]'>
+            <div className='p-[20px] text-[14px] cursor-pointer hover:text-[#15d1c8]'>
               <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
-            <div className='p-[20px] text-[14px]'>
+            <div className='p-[20px] text-[14px] cursor-pointer hover:text-[#15d1c8]'>
               <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>
-            <div className='p-[20px] text-[14px]'>
+            <div className='p-[20px] text-[14px] cursor-pointer hover:text-[#15d1c8]'>
               <img className='rounded-[8px]' src={tamLy} alt='' />
               <div className='mt-[12px]'>Tư vấn, trị liệu tâm lý từ xa</div>
             </div>

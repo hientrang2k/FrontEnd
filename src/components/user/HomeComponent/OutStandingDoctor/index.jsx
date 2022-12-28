@@ -41,7 +41,7 @@ const OutStandingDoctor = () => {
               },
             ]}
           >
-            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+            <div className='cursor-pointer p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
                 <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
@@ -52,7 +52,7 @@ const OutStandingDoctor = () => {
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+            <div className='cursor-pointer p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
                 <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
@@ -63,7 +63,7 @@ const OutStandingDoctor = () => {
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+            <div className='cursor-pointer p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
                 <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
@@ -74,7 +74,7 @@ const OutStandingDoctor = () => {
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+            <div className='cursor-pointer p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
                 <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
@@ -85,7 +85,7 @@ const OutStandingDoctor = () => {
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+            <div className='cursor-pointer p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
                 <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>
@@ -96,7 +96,7 @@ const OutStandingDoctor = () => {
                 Tư vấn, trị liệu tâm lý từ xa
               </div>
             </div>
-            <div className='p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
+            <div className='cursor-pointer p-[10px] text-[15px] flex flex-col justify-center items-center h-[260px] doctor-border mr-[8px] ml-[8px]'>
               <div className='w-[120px]'>
                 <img className='rounded-[50%]' src={bsChung} alt='' />
               </div>

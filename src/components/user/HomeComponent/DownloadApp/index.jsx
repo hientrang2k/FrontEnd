@@ -43,10 +43,10 @@ const DownloadApp = () => {
         </li>
       </ul>
       <div className='flex gap-[10px] mt-[16px]'>
-        <div className='w-[150px] cursor-pointer'>
+        <div className='w-[150px] cursor-pointer hover:mt-[-4px] hover:duration-300 hover:shadow-[0px_30px_30px_rgba(0,0,0,0.13)]'>
           <img src={appStore} alt='' className='w-[100%]' />
         </div>
-        <div className='h-[50px] cursor-pointer'>
+        <div className='h-[50px] cursor-pointer hover:mt-[-4px] hover:duration-300 hover:shadow-[0px_30px_30px_rgba(0,0,0,0.13)]'>
           <img src={ggPlay} alt='' className='h-[100%]' />
         </div>
       </div>
