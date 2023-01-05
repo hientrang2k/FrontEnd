@@ -1,0 +1,48 @@
+.btn-add-account{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.btn-add-account button {
+    border-radius: 300px;
+    border: 1px solid #00b2b7;
+    background-color: transparent;
+    color: #00b2b7;
+    font-weight: 500;
+}
+
+.table-shadow{
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.MuiButton-startIcon svg {
+    width: 15px
+}
+
+.ant-pagination {
+    float: right;
+    margin-top: 16px
+}
+
+.ant-pagination .ant-pagination-item-active{
+    border-color: #00b2b7
+}
+
+.ant-pagination .ant-pagination-item-active a{
+    color: #00b2b7
+}
+
+.ant-select .ant-pagination-options-size-changer:hover, .ant-select-selector:hover{
+    border-color: #00b2b7 !important
+}
+
+.ant-table-thead th{
+    background-color: #00b2b7 !important;
+    color: #fff !important;
+}

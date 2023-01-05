@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Layout, Grid, Drawer, Spin } from "antd";
-import AdminListAccount from "../../components/admin/AdminListAccount";
+import ListDoctor from "../../components/admin/ListDoctor";
 import MenuAdmin from "../../components/admin/MenuAdmin";
 import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
 
-const ListAccount = () => {
+const AdminListDoctor = () => {
   const { useBreakpoint } = Grid;
-  const { Sider, Content } = Layout;
+  const { Header, Sider, Content } = Layout;
   const screens = useBreakpoint();
 
   const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ const ListAccount = () => {
   };
   return (
     <Spin spinning={loading} size="large">
-      <Layout className="max-w-screen min-h-screen ">
+      <Layout className="max-w-screen min-h-screen">
         {screens.lg && (
           <Sider trigger={null} collapsible collapsed={collapsed}>
             <div className="bg-white flex justify-between items-center p-[12px] bg-[#046970] text-white ">
@@ -36,14 +36,20 @@ const ListAccount = () => {
           </Sider>
         )}
         {!screens.lg && (
-          <Drawer title="Menu" placement="right" width={320} onClose={onClose}>
+          <Drawer
+            title="Menu"
+            placement="right"
+            width={320}
+            onClose={onClose}
+            // visible={visible}
+          >
             <MenuAdmin />
           </Drawer>
         )}
 
         <Layout className="site-layout">
           <Content style={{}}>
-            <AdminListAccount setLoading={setLoading} />
+            <ListDoctor setLoading={setLoading} />
           </Content>
         </Layout>
       </Layout>
@@ -51,4 +57,4 @@ const ListAccount = () => {
   );
 };
 
-export default ListAccount;
+export default AdminListDoctor;

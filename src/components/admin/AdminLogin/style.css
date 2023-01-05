@@ -1,0 +1,17 @@
+#password {
+    background-color: #E3FFFA;
+}
+
+.bg-btn-login {
+    background: linear-gradient(90deg, #5BA49F 0%, #71DBD4 100%);
+    color: #fff;
+}
+.bg-btn-login:hover {
+    background: linear-gradient(90deg, #71DBD4 0%, #5BA49F 97.92%);
+    color: #fff !important;
+    border: none;
+}
+
+/* .login-box-shadow{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+} */

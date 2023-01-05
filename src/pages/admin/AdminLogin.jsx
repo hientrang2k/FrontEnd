@@ -6,7 +6,7 @@ const AdminLogin = () => {
   const [loading, setLoading] = useState(false);
   return (
     <Spin spinning={loading} size="large">
-      <Layout className="layout bg-[rgb(247, 247, 247)] max-w-screen min-h-screen">
+      <Layout className="layout max-w-screen min-h-screen">
         <LoginForm setLoading={setLoading} />
       </Layout>
     </Spin>

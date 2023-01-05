@@ -1,31 +1,40 @@
 import React, { useState } from "react";
 import { Table, Pagination, Tooltip } from "antd";
-import { Button, Box } from "@mui/material";
-import { PlusOutlined, EditOutlined } from "@ant-design/icons";
+import { Button } from "@mui/material";
 import "./style.css";
+import { PlusOutlined, EyeOutlined, EditOutlined } from "@ant-design/icons";
 
 const columns = [
   {
-    title: "User name",
-    dataIndex: "userName",
-    render: (text) => <a>{text}</a>,
-  },
-  {
     title: "Full name",
     dataIndex: "fullName",
+    render: (text) => <a>{text}</a>,
   },
   {
     title: "Email",
     dataIndex: "email",
   },
   {
-    title: "Role",
-    dataIndex: "role",
+    title: "Phone Number",
+    dataIndex: "phoneNumber",
+  },
+  {
+    title: "Specialist",
+    dataIndex: "specialist",
   },
   {
     title: "Actions",
     render: (text) => (
       <div>
+        <Tooltip title="View" placement="bottom" color="#55ccae">
+          <EyeOutlined
+            style={{
+              marginRight: "20px",
+              color: "#b78700",
+              cursor: "pointer",
+            }}
+          />
+        </Tooltip>
         <Tooltip title="Edit" placement="bottom" color="#55ccae">
           <EditOutlined style={{ color: "#005e40", cursor: "pointer" }} />
         </Tooltip>
@@ -36,31 +45,31 @@ const columns = [
 const data = [
   {
     key: "1",
-    userName: "johnBrown",
     fullName: "John Brown",
     email: "john@gmail.com",
-    role: "Doctor",
+    phoneNumber: "0988775664",
+    specialist: "Neurology",
   },
   {
     key: "2",
-    userName: "jimGreen",
     fullName: "Jim Green",
     email: "jim@gmail.com",
-    role: "Admin",
+    phoneNumber: "0956783221",
+    specialist: "Surgeon",
   },
   {
     key: "3",
-    userName: "joeBlack",
     fullName: "Joe Black",
     email: "joe@gmail.com",
-    role: "User",
+    phoneNumber: "033466779",
+    specialist: "Obstetrician",
   },
   {
     key: "4",
-    userName: "testABC",
     fullName: "ABC",
     email: "abc@gmail.com",
-    role: "User",
+    phoneNumber: "036777889",
+    specialist: "Internist",
   },
 ];
 
@@ -78,17 +87,17 @@ const rowSelection = {
   }),
 };
 
-const AdminListAccount = () => {
+const ListDoctor = () => {
   const [selectionType, setSelectionType] = useState("checkbox");
 
   return (
     <div className="p-[30px] h-full">
       <div className="btn-add-account h-[100px] flex justify-between">
         <div>
-          Total: <b>4</b> accounts
+          Total: <b>4</b> doctors
         </div>
         <Button variant="contained" startIcon={<PlusOutlined />}>
-          <span className="normal-case">Add user</span>
+          <span className="normal-case">Add doctor</span>
         </Button>
       </div>
       <div className="p-[20px] bg-white h-full rounded-[15px] table-shadow">
@@ -115,4 +124,4 @@ const AdminListAccount = () => {
   );
 };
 
-export default AdminListAccount;
+export default ListDoctor;
